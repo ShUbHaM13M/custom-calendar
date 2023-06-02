@@ -1,5 +1,5 @@
 import ReactDatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
+// import 'react-datepicker/dist/react-datepicker.css';
 import PropTypes from 'prop-types';
 import DatePickerHeader from './DatePickerHeader';
 import { useRef } from 'react';

@@ -99,51 +99,51 @@ body {
 }
 
 .react-modal-sheet-container {
-  /* box-shadow: 0px 8px 11px -4px rgba(0, 0, 0, 0.8) !important; */
-  background-color: white !important;
-  border-top-left-radius: 12px !important;
-  border-top-right-radius: 12px !important;
-  overflow: hidden;
-}
+    /* box-shadow: 0px 8px 11px -4px rgba(0, 0, 0, 0.8) !important; */
+    background-color: white !important;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    overflow: hidden;
+  }
 
-.react-datepicker {
-  font-family: 'Poppins', sans-serif;
-}
+  .react-datepicker {
+    font-family: 'Poppins', sans-serif;
+  }
 
-.react-datepicker__triangle {
-  display: none;
-}
-.react-datepicker__day-names {
-  display: flex;
-  padding-top: 14px;
-  margin-bottom: 16px;
-  border-bottom: none;
-  border-top: 1px solid #f2f1ff;
-}
-.react-datepicker__header {
-  border-bottom: none;
-  background-color: white;
-  padding-block: 0;
-}
-.react-datepicker__children-container {
-  margin-inline: 0;
-  margin-block-end: 20px;
-  width: 100%;
-}
-.react-datepicker__month {
-  margin: 0;
-  margin-bottom: 12px;
-}
-.react-datepicker__current-month {
-  padding-block: 12px;
-  font-size: 16px;
-  @apply text-dark-grey font-semibold;
-}
-.react-datepicker__navigation {
-  top: 10px !important;
-  left: 16px;
-}
-.react-datepicker__navigation.react-datepicker__navigation--next {
-  left: auto;
-  right: 16px;
-}
+  .react-datepicker__triangle {
+    display: none;
+  }
+  .react-datepicker__day-names {
+    display: flex !important;
+    padding-top: 14px !important;
+    margin-bottom: 16px !important;
+    border-bottom: none !important;
+    border-top: 1px solid #f2f1ff !important;
+  }
+  .react-datepicker__header {
+    border-bottom: none !important;
+    background-color: white !important;
+    padding-block: 0 !important;
+  }
+  .react-datepicker__children-container {
+    margin-inline: 0 !important;
+    margin-block-end: 20px !important;
+    width: 100% !important;
+  }
+  .react-datepicker__month {
+    margin: 0 !important;
+    margin-bottom: 12px !important;
+  }
+  .react-datepicker__current-month {
+    padding-block: 12px !important;
+    font-size: 16px !important;
+    @apply text-dark-grey font-semibold;
+  }
+  .react-datepicker__navigation {
+    top: 10px !important;
+    left: 16px;
+  }
+  .react-datepicker__navigation.react-datepicker__navigation--next {
+    left: auto;
+    right: 16px;
+  }
