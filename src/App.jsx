@@ -5,7 +5,7 @@ function App() {
   const [today, setToday] = useState(new Date())
   
   return <div className='p-4'>
-    <DataPicker startDate={today} setStartDate={setToday} />
+    <DatePicker startDate={today} setStartDate={setToday} />
   </div>;
 }
 
