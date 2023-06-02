@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import DatePicker from './components'
+import { DatePicker } from './components'
 
 function App() {
   const [today, setToday] = useState(new Date())
